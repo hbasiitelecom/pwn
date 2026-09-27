@@ -18,6 +18,7 @@
 | [Why PWN](Why-PWN.md) | Design philosophy - why another framework |
 | [How PWN Works](How-PWN-Works.md) | The five layers, with the architecture diagram |
 | [Installation](Installation.md) | `gem install --verbose pwn` → `pwn setup` doctor/provisioner · capability profiles · `--migrate` state doctor |
+| [Install on Windows (Kali VM / WSL2)](Install-WSL2-Kali.md) | Windows quickstart - Kali VM (most compatible) or WSL2 + Kali, with network/USB tweaks |
 | [General Usage](General-PWN-Usage.md) | Day-one cheat sheet |
 | [Configuration](Configuration.md) | `~/.pwn/pwn.yaml` (encrypted) - engines, keys, agent options · `pwn-vault` |
 | **[All Data-Flow Diagrams](Diagrams.md)** | **29 SVGs** in one scrollable page |

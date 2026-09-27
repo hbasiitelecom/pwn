@@ -37,6 +37,11 @@ pwn[CURRENT_VERSION]:001 >>> PWN.help
 If you only need a subset (e.g. web testing on a CI runner, SDR on a lab
 box), install just that **capability profile** - see below.
 
+> **On Windows?** A full **Kali VM** (Hyper-V / VMware / VirtualBox) is the most
+> compatible option - it's just Kali, so the two steps above are all you need.
+> Prefer Windows integration instead? Run **WSL2 + Kali**. Both are covered in
+> [Install on Windows (Kali VM or WSL2)](Install-WSL2-Kali.md).
+
 ---
 
 ## `pwn setup` - the post-install doctor & provisioner

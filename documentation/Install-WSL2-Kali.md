@@ -17,7 +17,7 @@ Either way, prefer a **persistent** environment over a throwaway container:
 PWN's value is its **persistent feedback loop** (`~/.pwn/`) and its
 **cron worker** (`systemd --user`), and both degrade in a stock container.
 
-> **Already have a Kali VM (e.g. Hyper-V)?** You are done with setup - go to
+> **Already have a Kali VM (e.g. VMware)?** You are done with setup - go to
 > [step 4](#4-install-pwn) and run `gem install pwn && pwn setup`. Reserve a
 > **container** only for isolated, throwaway tasks (a one-shot SAST run, a web
 > test in a clean environment).
